@@ -1,4 +1,4 @@
-# DADT
+# UDAR
 
 This repository contains a PyTorch implementation of the UDAR-based time-series anomaly detection pipeline used in this project.
 
@@ -15,7 +15,7 @@ The codebase provides:
 ## Project Structure
 
 ```text
-DADT/
+UDAR/
 ├── main.py
 ├── solver.py
 ├── model/
@@ -81,6 +81,8 @@ dataset/<DATASET_NAME>/
 ├── test.csv
 └── test_label.csv
 ```
+
+All datasets used in this study are publicly available from their original providers. The MSL spacecraft telemetry dataset is available from the Telemanom project page at https://github.com/khundman/ telemanom. The PSM dataset is available from the eBay RANSynCoders repository at https:// github.com/eBay/RANSynCoders. The SWaT and WADI datasets are available from the iTrust Labs dataset portal at https://itrust.sutd.edu. sg/itrust-labs_datasets/ and its dataset information page at https://itrust.sutd.edu. sg/itrust-labs_datasets/dataset_info/. The NIPS-TS-SWAN and NIPS-TS-GECCO datasets are publicly distributed through the TODS benchmark repository at https://github.com/datamllab/ tods/tree/benchmark/benchmark and are also indexed in the TimeEval dataset catalog at https:// timeeval.github.io/evaluation-paper/ notebooks/Datasets.html. The implementation code for UDAR will be released when the paper is accepted.
 
 ## Training
 
